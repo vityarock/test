@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- <script src="./my_jquery.js"></script>> -->
+	<script src="./timer.js"></script>
+
+
+    <title>Timer for homework 1.11</title>
+</head>
+<body>
+	
+	<form class="settimer" action="#" method="get">
+		<input class="min" type="number" min=1 max=59 placeholder="minutes">
+		<input class="sec" type="number" min=1 max=59 placeholder="seconds">
+		<button class="submit" type="submit"> Установить </button>
+	</form>
+
+<h1 class="countdown-title">Таймер обратного отсчёта</h1>
+
+<section class="countdown">
+  <div class="countdown-number">
+    <p class="minutes countdown-time"></p>
+  </div>
+  <div class="countdown-number">
+    <p class="seconds countdown-time"></p>
+  </div>
+</section>
+
+<div class="keys">
+  <button class="plus">plus</button>
+  <button class="minus">minus</button>
+  <button class="set">input time</button>
+
+  <button class="start">start</button>
+</div>
+  <button class="pause">STOP</button>
+
+
+<div class="message">
+  
+</div>
+</body>
